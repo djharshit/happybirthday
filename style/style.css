@@ -11,7 +11,9 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   min-height: 100vh;
-  cursor: url("./img/birthday-cake.png") 8 8, auto;
+  cursor:
+    url("../img/birthday-cake.png") 8 8,
+    auto;
 }
 
 /* Preloader */
@@ -27,7 +29,9 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 99999;
-  transition: opacity 0.8s, visibility 0.8s;
+  transition:
+    opacity 0.8s,
+    visibility 0.8s;
 }
 
 .preloader.loaded {
@@ -93,7 +97,9 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  transition: opacity 0.8s, visibility 0.8s;
+  transition:
+    opacity 0.8s,
+    visibility 0.8s;
   opacity: 0;
   visibility: hidden;
 }
@@ -113,7 +119,9 @@ body {
   height: 550px;
   position: relative;
   transform-style: preserve-3d;
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
   transition: transform 0.8s;
 }
 
@@ -204,7 +212,9 @@ body {
   color: #1a1a1a;
   border: none;
   border-radius: 50px;
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
   box-shadow: 0 8px 20px rgba(255, 213, 79, 0.4);
   transition: all 0.3s;
 }
@@ -293,7 +303,9 @@ body {
   font-weight: 600;
   box-shadow: 0 5px 15px rgba(255, 77, 166, 0.4);
   transition: all 0.2s ease;
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
   display: inline-block;
   visibility: visible !important;
 }
@@ -413,7 +425,9 @@ body {
   width: 250px;
   height: 200px;
   margin: 0 auto;
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
 }
 
 .plate {
@@ -424,7 +438,10 @@ body {
   left: -10px;
   background-color: #ccc;
   border-radius: 50%;
-  box-shadow: 0 2px 0 #b3b3b3, 0 4px 0 #b3b3b3, 0 5px 40px rgba(0, 0, 0, 0.5);
+  box-shadow:
+    0 2px 0 #b3b3b3,
+    0 4px 0 #b3b3b3,
+    0 5px 40px rgba(0, 0, 0, 0.5);
 }
 
 .layer {
@@ -434,8 +451,13 @@ body {
   height: 100px;
   border-radius: 50%;
   background-color: #553c13;
-  box-shadow: 0 2px 0px #6a4b18, 0 4px 0px #33240b, 0 6px 0px #32230b,
-    0 8px 0px #31230b, 0 10px 0px #30220b, 0 12px 0px #2f220b;
+  box-shadow:
+    0 2px 0px #6a4b18,
+    0 4px 0px #33240b,
+    0 6px 0px #32230b,
+    0 8px 0px #31230b,
+    0 10px 0px #30220b,
+    0 12px 0px #2f220b;
 }
 
 .layer-top {
@@ -536,7 +558,9 @@ body {
   top: -34px;
   left: 1px;
   z-index: 10;
-  box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5),
+  box-shadow:
+    0 0 10px rgba(255, 165, 0, 0.5),
+    0 0 20px rgba(255, 165, 0, 0.5),
     0 0 60px rgba(255, 165, 0, 0.5);
   transform-origin: 50% 90%;
   animation: flicker 1s ease-in-out alternate infinite;
@@ -545,15 +569,21 @@ body {
 @keyframes flicker {
   0% {
     transform: skewX(5deg);
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.2), 0 0 20px rgba(255, 165, 0, 0.2);
+    box-shadow:
+      0 0 10px rgba(255, 165, 0, 0.2),
+      0 0 20px rgba(255, 165, 0, 0.2);
   }
   50% {
     transform: skewX(-5deg);
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5);
+    box-shadow:
+      0 0 10px rgba(255, 165, 0, 0.5),
+      0 0 20px rgba(255, 165, 0, 0.5);
   }
   100% {
     transform: skewX(5deg);
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5);
+    box-shadow:
+      0 0 10px rgba(255, 165, 0, 0.5),
+      0 0 20px rgba(255, 165, 0, 0.5);
   }
 }
 
@@ -563,7 +593,9 @@ body {
   color: #00e5ff;
   font-family: "Poppins", sans-serif;
   animation: pulse 2s infinite;
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
 }
 
 @keyframes pulse {
@@ -614,7 +646,9 @@ body {
 }
 
 #replay {
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
   color: #00e5ff;
   text-decoration: none;
   transition: all 0.3s;
@@ -697,7 +731,9 @@ body {
   display: none;
   justify-content: center;
   align-items: center;
-  cursor: url("./img/birthday-candle.png") 6 2, pointer;
+  cursor:
+    url("../img/birthday-candle.png") 6 2,
+    pointer;
   box-shadow: 0 8px 25px rgba(255, 77, 166, 0.5);
   z-index: 9999;
   transition: all 0.3s;
